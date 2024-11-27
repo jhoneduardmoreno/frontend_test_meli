@@ -14,7 +14,7 @@ This project is an implementation of Mercado Libre's technical challenge, built 
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/jhoneduardmoreno/frontend_meli.git
+   git clone https://github.com/jhoneduardmoreno/frontend_test_meli.git
    ```
 
 2. Install dependencies
