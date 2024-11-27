@@ -1,0 +1,54 @@
+@import "@/app/styles/_variable.scss";
+
+.container {
+    background-color: $meli-yellow;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.logo {
+    flex-shrink: 0;
+    width: 120px;
+    height: 40px;
+    
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 481px) {
+    .wrapper {
+        padding: 0 16px;
+    }
+}
+
+@media (min-width: 769px) {
+    .wrapper {
+        max-width: 1200px;
+    }
+
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 16px;
+    }
+
+    .logo {
+        width: 150px;
+        height: 50px;
+    }
+}

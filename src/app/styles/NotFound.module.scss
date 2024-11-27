@@ -1,0 +1,62 @@
+.notFoundContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  padding: 32px;
+  text-align: center;
+}
+
+.title {
+  font-size: 128px;
+  font-weight: 700;
+  margin: 0;
+  color: #e74c3c;
+}
+
+.subtitle {
+  font-size: 32px;
+  margin: 16px 0;
+  color: #2c3e50;
+}
+
+.description {
+  font-size: 18px;
+  margin: 16px 0 32px;
+  max-width: 600px;
+  color: #7f8c8d;
+}
+
+.button {
+  display: inline-block;
+  padding: 16px 32px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #2980b9;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 96px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .button {
+    padding: 12px 24px;
+  }
+}

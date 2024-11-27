@@ -1,0 +1,14 @@
+.categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+@media (min-width: 1400px) {
+    .categories {
+        justify-content: space-between;
+    }
+}

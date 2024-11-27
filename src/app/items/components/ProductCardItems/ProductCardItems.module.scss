@@ -1,0 +1,91 @@
+$color-text-secondary: #666;
+$color-hover-background: #f5f5f5;
+
+.productCard {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    
+    @media (min-width: 768px) {
+        flex-direction: row;
+        padding: 20px;
+        gap: 20px;
+    }
+}
+
+.productImage {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    border-radius: 4px;
+    
+    @media (min-width: 768px) {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+.productInfo {
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+    @media (min-width: 768px) {
+        padding-top: 20px;
+    }
+}
+
+.productPrice {
+    font-size: 20px;
+    font-weight: 400;
+    
+    @media (min-width: 768px) {
+        font-size: 24px;
+    }
+}
+
+.productTitle {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    
+    @media (min-width: 768px) {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+}
+
+.location {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: $color-text-secondary;
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    
+    @media (min-width: 768px) {
+        top: 20px;
+        right: 20px;
+        font-size: 16px;
+    }
+}
+
+.productCardLink {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    
+    &:hover {
+        .productCard {
+            background-color: $color-hover-background;
+        }
+    }
+}
+
+.freeShipping {
+    margin-left: 15px;
+}
