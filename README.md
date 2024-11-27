@@ -42,8 +42,5 @@ This project is an implementation of Mercado Libre's technical challenge, built 
 
 ## Environment Variables
 
-Check `.env.example` for reference on required environment variables:
-
-```env
-NEXT_PUBLIC_API_URL=https://api.mercadolibre.com
+Check `.env.example` for reference on required environment variables.
 ```
